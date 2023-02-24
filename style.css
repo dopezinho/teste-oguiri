@@ -1,0 +1,222 @@
+
+
+/*  IMPORT  */
+
+/* header h1 */
+
+/*  header h5 */
+
+/*  header h4 */
+
+/*  .wrapper  */
+
+
+/*  CSS RESET  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*  CSSZIN  */
+
+body {
+    background-color: #f1e3bea7;
+}
+
+/*  HEADER  */
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: clamp(3.5vh, 3vw, 8vh);
+    font-weight: 600;
+    margin-top: 7vh;
+}
+
+header h4 {
+    color: #673a0f;
+    font-size: clamp(2vh, 1.5vw, 6vh);
+    font-weight: 300;
+    text-align: center;
+}
+
+.img img {
+    height: 10vh;
+}
+
+header h5 {
+    background: #f1e3be6f;
+    border: 0.1px solid #e6d66b;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: clamp(1.5vh, 1vw, 7vh);
+    font-weight: bold;
+    margin-top: 2vh;
+    padding: 1vh;
+    text-transform: uppercase;
+}
+
+header h5:hover {
+    background: #f1e3be;
+}
+
+/*  HEADER QUERIES  */
+
+@media screen and (max-width: 1200px) {
+    
+.img img {
+    height: 7vh;
+}
+}
+
+/*  MAIN  */
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.players,
+.players1 {
+    font-size: clamp(5vh, 2vw, 6vh);
+    font-weight: 600;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    font-size: clamp(2vh, 2vw, 6vh);
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 3vh 0;
+}
+
+.minus, .minus1, .plus, .plus1 {
+    background: #f1e3be6f;
+    border: 0.1px solid #e6d66b;
+    border-radius: 5px;  
+    cursor: pointer;  
+    padding: 0.5vh 2vh;
+}
+
+.num, .num1 {
+    font-size: clamp(4vh, 2vw, 6vh);
+}
+
+
+/*  FOOT  */
+
+footer {
+    display: flex;
+    justify-content: center;   
+    margin: 10vh 0; 
+}
+
+#start, #show, #showSecret {
+    background: #2c1010;
+    border-radius: 5px;
+    color: #f1e3be;
+    cursor: pointer;
+    font-size: clamp(2.5vh, 2vw, 6vh);
+    padding: 1vh;
+}
+
+#start:hover, #show:hover, #showSecret:hover {
+    background: #f1e3be;
+    color: #2c1010;
+}
+
+/* jS Classes */
+
+#transition {
+    background: #6958ca;
+    border-radius: 5px;
+    color: #e6d66b;
+    font-size: clamp(2vh, 2vw, 6vh);
+    font-weight: 600;
+    margin: 5vh 5vh;
+    padding: 2vh 4vh;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5vh;
+}
+
+.jogador {
+    align-items: center;
+    display: flex;
+    font-size: clamp(5vh, 2vw, 6vh);
+    font-weight: 600;
+    margin: 3vh 0;
+    justify-content: center;
+}
+
+.cenario {
+    align-items: center;
+    display: flex;
+    font-size: clamp(2vh, 2vw, 6vh);
+    font-weight: bold;
+    justify-content: center;
+}
+
+.role {    
+    align-items: center;
+    display: flex;
+    font-size: clamp(2vh, 2vw, 6vh);
+    font-weight: bold;
+    justify-content: center;
+}
+
+.legend {
+    align-items: center;
+    display: flex;
+    font-size: clamp(5vh, 2vw, 6vh);
+    font-weight: 600;
+    margin: 3vh 0;
+    justify-content: center;
+}
+
+#ast {
+    padding: 1.5vh 3vh 0vh 3vh;
+} 
+
+/*  JS CLASSES QUERIES  */
+
+@media screen and (max-width: 1200px) {
+    #transition {
+        margin: 15vh 5vh;
+    }
+}
+
+
+
+/*  WEBKIT  */
+
+body,
+body::selection {  
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
