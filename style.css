@@ -234,7 +234,7 @@ footer {
     color: #e6d66b;
     font-size: clamp(2vh, 2vw, 6vh);
     font-weight: 600;
-    margin: 5vh 5vh;
+    margin: 18vh 5vh;
     padding: 2vh 4vh;
     text-align: center;
     text-transform: uppercase;
@@ -282,9 +282,6 @@ footer {
 /*  JS CLASSES QUERIES  */
 
 @media screen and (max-width: 1200px) {
-    #transition {
-        margin: 15vh 5vh;
-    }
     .jogador, .players, .players1 {
         margin-top: 10vh;
     }
