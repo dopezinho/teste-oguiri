@@ -140,8 +140,8 @@ header h5:hover {
     border: 1px solid lightgray;
     border-radius: 5px;
     box-shadow: 5px 5px 15px #fff;
-    max-height: 90%;
-    max-width: 95%;
+    max-height: 85%;
+    max-width: 90%;
     overflow: hidden;
 }
 
@@ -155,7 +155,7 @@ header h5:hover {
 .conteudoModal h6 {
     font-size: clamp(1.5vh, 1.5vw, 6vh);
     font-weight: bold;
-    margin: 2vh 4vh;
+    margin: 2vh;
     text-align: center;
 
 }
