@@ -140,8 +140,8 @@ header h5:hover {
     border: 1px solid lightgray;
     border-radius: 5px;
     box-shadow: 5px 5px 15px #fff;
-    max-height: 80%;
-    max-width: 90%;
+    max-height: 90%;
+    max-width: 95%;
     overflow: hidden;
 }
 
