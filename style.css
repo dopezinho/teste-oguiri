@@ -84,10 +84,9 @@ header h5:hover {
 
 /*  HEADER QUERIES  */
 
-@media screen and (max-width: 1200px) {
-    
-.img img {
-    height: 7vh;
+@media screen and (max-width: 1200px) {    
+    .img img {
+        height: 7vh;
 }
 }
 
