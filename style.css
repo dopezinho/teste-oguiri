@@ -123,6 +123,10 @@ main {
     padding: 0.5vh 2vh;
 }
 
+.minus:hover, .minus1:hover, .plus:hover, .plus1:hover {
+    background: #f1e3be;
+}
+
 .num, .num1 {
     font-size: clamp(4vh, 2vw, 6vh);
 }
