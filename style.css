@@ -50,7 +50,7 @@ body {
 }
 
 header h1 {
-    font-size: clamp(3.5vh, 3vw, 8vh);
+    font-size: clamp(3vh, 3vw, 8vh);
     font-weight: 600;
     margin-top: 7vh;
 }
@@ -144,69 +144,6 @@ header h5:hover {
     max-width: 80%;
 }
 
-/*  Roles  */
-
-.abrirRoles {
-    color: #673a0f;
-    font-size: clamp(3vh, 1.5vw, 6vh);
-    font-weight: 600;
-    left: 37%;
-    padding: 2vh;
-    position: absolute;
-    text-transform: uppercase;
-    top: 3%;
-}
-
-.abrirRoles:hover {
-    cursor: pointer;
-}
-
-.checkboxRoles {
-    display: none;
-}
-
-#rolesExemplo:checked + .roles {
-    display: flex;
-}
-
-.roles {
-    align-items: center;
-    background-color: #33333382;
-    display: none;
-    height: 100%;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-}
-
-.roles .fecharRoles {
-    background: #673a0f;
-    border-radius: 5px;
-    color: #fff;
-    font-size: clamp(3vh, 1.5vw, 6vh);
-    font-weight: 600;
-    padding: 1vh 2vh;
-    position: absolute;
-    right: 33%;
-    text-transform: uppercase;
-    top: 10%;
-
-}
-
-.roles .fecharRoles:hover {
-    cursor: pointer;
-    color: #ff0000;
-}
-
-.roles .conteudoRoles {
-    background: #fff;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px #fff;
-    max-height: 60%;
-    max-width: 80%;
-}
-
 /*  HEADER QUERIES  */
 
 @media screen and (max-width: 1200px) {    
@@ -220,26 +157,9 @@ header h5:hover {
         display: none;
     }
     .modal {
-        background: transparent;
-        display: flex;
-        max-height: 100%;
-        max-width: 30%;
+        display: none;
     }
     .modal .fecharModal {
-        display: none;
-    }
-    .abrirRoles {
-        display: none;
-    }
-    .roles {
-        background: transparent;
-        display: flex;
-        max-height: 100%;
-        max-width: 30%;
-        position: absolute;
-        left: 70%;
-    }
-    .roles .fecharRoles {
         display: none;
     }
 }
@@ -250,7 +170,6 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 5vh;
 }
 
 .players,
@@ -350,7 +269,7 @@ footer {
 .legend {
     align-items: center;
     display: flex;
-    font-size: clamp(5vh, 2vw, 6vh);
+    font-size: clamp(4vh, 2vw, 6vh);
     font-weight: 600;
     margin: 3vh 0;
     justify-content: center;
@@ -365,6 +284,9 @@ footer {
 @media screen and (max-width: 1200px) {
     #transition {
         margin: 15vh 5vh;
+    }
+    .jogador, .players, .players1 {
+        margin-top: 10vh;
     }
 }
 
