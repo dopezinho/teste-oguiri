@@ -253,16 +253,16 @@ footer {
 .cenario {
     align-items: center;
     display: flex;
-    font-size: clamp(2vh, 2vw, 6vh);
-    font-weight: bold;
+    font-size: clamp(2vh, 1.5vw, 5vh);
+    font-weight: 300;
     justify-content: center;
 }
 
 .role {    
     align-items: center;
     display: flex;
-    font-size: clamp(2vh, 2vw, 6vh);
-    font-weight: bold;
+    font-size: clamp(2vh, 1.5vw, 5vh);
+    font-weight: 300;
     justify-content: center;
 }
 
@@ -282,8 +282,8 @@ footer {
 /*  JS CLASSES QUERIES  */
 
 @media screen and (max-width: 1200px) {
-    .jogador, .players, .players1 {
-        margin-top: 10vh;
+    .jogador, .players {
+        margin-top: 12vh;
     }
 }
 
