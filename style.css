@@ -122,12 +122,11 @@ header h5:hover {
     color: #fff;
     font-size: clamp(3vh, 1.5vw, 6vh);
     font-weight: 600;
-    padding: 1vh 2vh;
+    padding: 1vh 4vh;
     position: absolute;
-    right: 33%;
+    right: 30%;
     text-transform: uppercase;
     top: 1%;
-
 }
 
 .modal .fecharModal:hover {
