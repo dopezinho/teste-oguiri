@@ -141,8 +141,23 @@ header h5:hover {
     border-radius: 5px;
     box-shadow: 5px 5px 15px #fff;
     max-height: 80%;
-    max-width: 80%;
+    max-width: 90%;
     overflow: hidden;
+}
+
+.conteudoModal h2 {
+    color: #2c1010;
+    font-size: clamp(2.5vh, 1.5vw, 6vh);
+    margin: 2vh 0;
+    text-align: center;
+}
+
+.conteudoModal h6 {
+    font-size: clamp(1.5vh, 1.5vw, 6vh);
+    font-weight: bold;
+    margin: 2vh 4vh;
+    text-align: center;
+
 }
 
 /*  HEADER QUERIES  */
