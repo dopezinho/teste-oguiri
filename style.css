@@ -126,7 +126,7 @@ header h5:hover {
     position: absolute;
     right: 33%;
     text-transform: uppercase;
-    top: 10%;
+    top: 1%;
 
 }
 
@@ -202,7 +202,6 @@ main {
 .num, .num1 {
     font-size: clamp(4vh, 2vw, 6vh);
 }
-
 
 /*  FOOT  */
 
@@ -286,8 +285,6 @@ footer {
         margin-top: 12vh;
     }
 }
-
-
 
 /*  WEBKIT  */
 
