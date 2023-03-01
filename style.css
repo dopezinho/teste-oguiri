@@ -139,20 +139,20 @@ header h5:hover {
     border: 1px solid lightgray;
     border-radius: 5px;
     box-shadow: 5px 5px 15px #fff;
-    max-height: 90%;
+    max-height: 80%;
     max-width: 90%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .conteudoModal h2 {
     color: #2c1010;
-    font-size: clamp(2.5vh, 1.5vw, 6vh);
-    margin: 2vh 0;
+    font-size: clamp(3.5vh, 1.5vw, 6vh);
+    margin: 2vh 6vh;
     text-align: center;
 }
 
 .conteudoModal h6 {
-    font-size: clamp(1.5vh, 1.5vw, 6vh);
+    font-size: clamp(2.5vh, 1.5vw, 6vh);
     font-weight: bold;
     margin: 1vh 2vh;
     text-align: center;
