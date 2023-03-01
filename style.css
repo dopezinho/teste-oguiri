@@ -170,8 +170,18 @@ header h5:hover {
         display: none;
     }
     .modal {
-        display: none;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 7vh;
+        width: 30%;
     }
+
+    .conteudoModal h2 {
+        font-size: clamp(5.5vh, 1.5vw, 6vh);
+        margin: 2vh 10vh;
+    }
+
     .modal .fecharModal {
         display: none;
     }
