@@ -1,127 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" href="./assets/5c3dc022e39d5d01c21da8b9.png">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/5c3dc022e39d5d01c21da8b9.png" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Charlatão</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header>
+      <div>
+        <label for="modalExemplo" class="abrirModal">instruções</label>
+        <input type="checkbox" id="modalExemplo" class="checkboxModal" />
 
-        <div>
-            <label for="modalExemplo" class="abrirModal">instruções</label>
-            <input type="checkbox" id="modalExemplo" class="checkboxModal">
+        <div class="modal">
+          <label for="modalExemplo" class="fecharModal">fechar</label>
+          <div class="conteudoModal">
+            <h2>Charlatito Instrucciones del Juego</h2>
+            <h6>
+              Um local selecionado de maneira aleatória é revelado para todos os
+              jogadores exceto um, este jogador é chamado de Charlatão. Os
+              outros jogadores, cientes do lugar determinado, são designados
+              como “personagens” que são característicos daquele cenário e devem
+              trabalhar juntos para determinar o verdadeiro impostor, fazendo
+              perguntas uns aos outros e contando as histórias mais criativas
+              com o objetivo de mostrar aos outros jogadores que está ciente do
+              local determinado. Vale tudo! Só não pode falar demais e revelar o
+              lugar para o Mr. Charlaton que está disfarçado e poderá tentar
+              adivinhar o lugar quando bem decidir.
+            </h6>
+            <h6>
+              A qualquer momento do jogo, qualquer dos jogadores poderá convocar
+              uma votação para determinar de forma coletiva quem é o Charlatão
+              naquela rodada. A decisão deve ser unânime, caso não seja, o jogo
+              deverá continuar até que o consenso seja atingido. Quando unânime,
+              o jogador votado deverá revelar sua identidade, caso seja de fato
+              o Charlatão, o grupo venceu! Caso contrário, o jogador é
+              eliminado!
+            </h6>
+            <h6>
+              O Sr. Charlateau está ciente de sua identidade ao longo do jogo. O
+              objetivo deste Charlatê é adivinhar o local revelado para os
+              outros jogadores fazendo perguntas e seguindo as pistas deixadas
+              em seus diálogos antes que descubram sua verdadeira identidade.
+              Para isso, deverá contar mentiras, inventar histórias e utilizar
+              todas suas estratégias maquiavélicas para enganar os outros
+              jogadores de maneira que só um verdadeiro Charloso consegue. Não
+              demore muito tempo! Você deverá revelar sua identidade aos outros
+              jogadores e adivinhar o local antes que as suspeitas fiquem
+              irreversíveis! Caso esteja incorreto, o grupo venceu! Caso acerte
+              o local, o Charlatato é o grande vencedor!
+            </h6>
+            <h6>
+              Vale lembrar que o jogo poderá ser conduzido de diferentes formas,
+              seja com limite de tempo, espaços de fala pré determinados, regras
+              diferentes de votação ou com um número de charlataums tão absurdo
+              que não fará nenhum sentido! O importante é se divertir!
+            </h6>
+          </div>
+        </div>
+      </div>
 
-            <div class="modal">
-                <label for="modalExemplo" class="fecharModal">fechar</label>
-                <div class="conteudoModal">
-                    <h2>Charlatito Instrucciones del Juego</h2>
-                    <h6>
-                        Um local selecionado de maneira aleatória 
-                        é revelado para todos os jogadores exceto um, 
-                        este jogador é chamado de Charlatão. Os outros jogadores, 
-                        cientes do lugar determinado, são designados como “personagens” 
-                        que são característicos daquele cenário e devem trabalhar 
-                        juntos para determinar o verdadeiro impostor, fazendo perguntas 
-                        uns aos outros e contando as histórias mais criativas com o 
-                        objetivo de mostrar aos outros jogadores que está ciente do local 
-                        determinado. Vale tudo! Só não pode falar demais e revelar o lugar 
-                        para o Mr. Charlaton que está disfarçado e poderá tentar adivinhar o 
-                        lugar quando bem decidir.
-                    </h6>
-                    <h6>
-                        A qualquer momento do jogo, qualquer dos jogadores poderá 
-                        convocar uma votação para determinar de forma coletiva 
-                        quem é o Charlatão naquela rodada. A decisão deve ser unânime, 
-                        caso não seja, o jogo deverá continuar até que o consenso seja atingido. 
-                        Quando unânime, o jogador votado deverá revelar sua identidade,
-                        caso seja de fato o Charlatão, o grupo venceu! Caso contrário, 
-                        o jogador é eliminado!	
-                    </h6>
-                    <h6>O Sr. Charlateau está ciente de sua identidade ao longo do jogo. 
-                        O objetivo deste Charlatê é adivinhar o local revelado para 
-                        os outros jogadores fazendo perguntas e seguindo as pistas 
-                        deixadas em seus diálogos antes que descubram sua verdadeira 
-                        identidade. Para isso, deverá contar mentiras, 
-                        inventar histórias e utilizar todas suas estratégias 
-                        maquiavélicas para enganar os outros jogadores de maneira 
-                        que só um verdadeiro Charloso consegue. Não demore muito tempo! 
-                        Você deverá revelar sua identidade aos outros jogadores 
-                        e adivinhar o local antes que as suspeitas fiquem irreversíveis! 
-                        Caso esteja incorreto, o grupo venceu! Caso acerte o local, 
-                        o Charlatato é o grande vencedor!
-                    </h6>
-                    <h6>
-                        Vale lembrar que o jogo poderá ser conduzido de diferentes formas, 
-                        seja com limite de tempo, espaços de fala pré determinados, 
-                        regras diferentes de votação  ou com um número de charlataums 
-                        tão absurdo que não fará nenhum sentido! O importante é se divertir!                                        
-                    </h6>
-                </div>
-            </div>
+      <div class="head">
+        <div class="charlato">
+          <h1>Quem é o Charlatão?</h1>
+          <h4>por biel, fezin, henrikin e sol</h4>
         </div>
 
-        <div class="head">
-            <div class="charlato">
-                <h1>Quem é o Charlatão?</h1>
-                <h4>por biel, fezin, henrikin e sol</h4>
-            </div>
-
-            <div class="img">
-                <img src="./assets/5c403ebee39d5d01c21da904.png" alt="bixinho doido">
-            </div>
+        <div class="img">
+          <img
+            src="./assets/5c403ebee39d5d01c21da904.png"
+            alt="bixinho doido"
+          />
         </div>
-
+      </div>
     </header>
 
-        <main>
+    <main>
+      <div class="miado">
+        <h3>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</h3>
+        <p>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</p>
+        <h3>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</h3>
+        <p>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</p>
+        <h3>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</h3>
+        <p>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</p>
+      </div>
 
-            <div id="template">
-                
-                <div class="players">
-                    <h2>Jogadores:</h2>
-                </div>
+      <div id="template">
+        <div class="players">
+          <h2>Jogadores:</h2>
+        </div>
 
-                <div class="wrapper">
-                    <span class="minus" id="minusPlayer">-</span>
-                    <span class="num" id="nJogadores">1</span>
-                    <span class="plus" id="plusPlayer">+</span>
-                </div>
-        
-                <div class="players1">
-                    <h2>Charlatos:</h2>
-                </div>
+        <div class="wrapper">
+          <span class="minus" id="minusPlayer">-</span>
+          <span class="num" id="nJogadores">1</span>
+          <span class="plus" id="plusPlayer">+</span>
+        </div>
 
-                <div class="wrapper">
-                    <span class="minus1" id="minusChar">-</span>
-                    <span class="num1" id="nImpostores">1</span>
-                    <span class="plus1" id="plusChar">+</span>
-                </div>        
+        <div class="players1">
+          <h2>Charlatos:</h2>
+        </div>
 
-            </div>
-  
-        </main>
+        <div class="wrapper">
+          <span class="minus1" id="minusChar">-</span>
+          <span class="num1" id="nImpostores">1</span>
+          <span class="plus1" id="plusChar">+</span>
+        </div>
+      </div>
 
-        <footer>
+      <div class="theRoles">
+        <h2>da roles</h2>
+        <h3>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</h3>
+        <p>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</p>
+        <h3>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</h3>
+        <p>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</p>
+        <h3>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</h3>
+        <p>dakopdfsaopsdkopakdfopapkodkokqopkopfdkaspokopkaopkopdakop</p>
+      </div>
+    </main>
 
-            <button type="button" id="start">borá?</button>
-            <button type="button" id="show" style="display: none;">próximo</button>
-            <button type="button" id="showSecret" style="display: none;">próximo</button>
+    <footer>
+      <button type="button" id="start">borá?</button>
+      <button type="button" id="show" style="display: none">próximo</button>
+      <button type="button" id="showSecret" style="display: none">
+        próximo
+      </button>
+    </footer>
+  </body>
 
-        </footer> 
-     
-</body>
-
-    <script type="module" src="./index.js"></script>
-    <script type="module" src="./button.js"></script>
-
+  <script type="module" src="./index.js"></script>
+  <script type="module" src="./button.js"></script>
 </html>

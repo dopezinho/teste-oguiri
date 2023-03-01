@@ -192,7 +192,12 @@ header h5:hover {
 main {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.miado {
+    color: transparent;
 }
 
 .players,
@@ -224,6 +229,29 @@ main {
 
 .num, .num1 {
     font-size: clamp(4vh, 2vw, 6vh);
+}
+
+/* da roles*/
+
+.theRoles {
+    text-align: center;
+}
+
+.theRoles h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/*  MAIN QUERIES  */
+
+@media screen and (max-width: 1200px) {
+    main {
+        justify-content: center;
+    }
+
+    .theRoles, .miado {
+        display: none;
+    }
 }
 
 /*  FOOT  */
