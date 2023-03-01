@@ -190,7 +190,7 @@ header h5:hover {
 /*  MAIN  */
 
 main {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -235,6 +235,7 @@ main {
 
 .theRoles {
     text-align: center;
+    max-width: 30%;
 }
 
 .theRoles h2 {
@@ -242,19 +243,7 @@ main {
     text-transform: uppercase;
 }
 
-/*  MAIN QUERIES  */
-
-@media screen and (max-width: 1200px) {
-    main {
-        justify-content: center;
-    }
-
-    .theRoles, .miado {
-        display: none;
-    }
-}
-
-/*  FOOT  */
+/* FOOT */
 
 footer {
     display: flex;
@@ -274,6 +263,18 @@ footer {
 #start:hover, #show:hover, #showSecret:hover {
     background: #f1e3be;
     color: #2c1010;
+}
+
+/*  MAIN QUERIES  */
+
+@media screen and (max-width: 1200px) {
+    main {
+        justify-content: center;
+    }
+
+    .theRoles, .miado {
+        display: none;
+    }
 }
 
 /* jS Classes */
